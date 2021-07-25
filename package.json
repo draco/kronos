@@ -1,0 +1,28 @@
+{
+  "name": "kronos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js $*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "immer": "^9.0.5",
+    "invariant": "^2.2.4",
+    "lodash.groupby": "^4.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "jest": "^27.0.6",
+    "jest-json": "^1.0.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0"
+  }
+}
